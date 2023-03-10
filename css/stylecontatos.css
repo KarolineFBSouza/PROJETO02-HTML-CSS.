@@ -1,0 +1,215 @@
+/* RESET CSS*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+h2{
+    font-size: 1.6em;
+    color: #333;
+    margin-top: 25px;
+    margin-left: 25px;
+    font-weight: bold;
+}
+
+h3{
+    font-size: 1.3em;
+    color: #000000;
+    margin-left: 25px;
+    
+}
+
+h4{
+    font-size: 18px;
+    color: #000000;
+    margin-left: 25px;
+}
+
+h5{
+    font-size: 18px;
+    color: #000000;
+    margin-left: 400px;
+    text-align: center;
+}
+p{
+    font-size: 12px;
+    color: #454545;
+    margin: center;
+    margin-left: 25px;
+    text-align: center;
+}
+
+/* CABECALHO */
+
+.cabecalho{
+    width: 100%;
+    float: left;
+    padding: 50px 8%;
+    background-color: #13c7ae;
+    /* background: linear-gradient(red,blue); degradê */
+
+}
+
+.logo a{
+    width: 221px;
+    height: 48px;
+    float: left;
+    font-size: 0;
+    background: url(../img/logo.png);
+}
+
+.cabecalho form{
+    width: 30%;
+    float: right;
+}
+
+.cabecalho form input[type="search"]{
+    width: 85%;
+    float: left;
+    padding: 15px 10px 15px 10px;
+    border-radius: 15px 0 0 15px;
+}
+
+.cabecalho button{
+    width: 15%;
+    float: right;
+    padding: 15px 10px;
+    background-color: #0cae98;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 0 15px 15px 0;
+}
+
+/*Menu*/
+.menu{
+    width: 100%;
+    float: left;
+    background-color: #111;
+    padding: 18px 8%;
+}
+
+.menu li{
+    float: left;
+}
+
+.menu li a{
+    color: #ffffff;
+    margin-right: 25px;
+    font-size: 19px;
+}
+
+.menu li a:hover{
+    color: #ffffff;
+    font-size: 22px;
+    border: 2px solid #0cae98;
+    border-radius: 7px;
+}
+
+/*Social-Icons*/
+.social-icons{
+    float: right;
+}
+
+.social-icons a{
+    color: #ffffff;
+    float: left;
+    margin-left: 13px;
+}
+
+.btn-facebook:hover{
+    color: #3b5998;
+}
+
+.btn-twitter:hover{
+    color: #00acee;
+}
+
+.btn-google:hover{
+    color: #DB4437;
+}
+
+/* PRINCIPAL */
+.principal{
+    width: 100%;
+    float: left;
+    padding: 20px 8%;
+}
+.sobre{
+    width: 70%;
+    float: left;
+    padding: 0 20px 20px 0;
+}
+
+.sobre h2{
+    margin-bottom: 15px;
+
+}
+
+.sobre img{
+    width: 50%;
+    float: left;
+    border-radius: 5px;
+    margin: 0 15px 15px 0;
+}
+
+.sobre p{
+    text-align: justify;
+    font-size: 16px;
+}
+
+/* CONTATOS */
+
+.contato-principal{
+    width: 420px;
+    height: 430px;
+    float: left;
+    padding: 0 20px 20px 0;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 #74747433, 0 4px 15px 0 #74747433;
+    margin-left: 530px;
+    background-color: #0cae98;}
+
+    .entrar{
+        width: 100px;
+        height: 40px;
+        border-radius: 50px;
+        box-shadow: 0 4px 8px 0 #74747433;
+        background-color: #ffffff;
+        margin-left: 120px;
+        color: #000000;
+        cursor: pointer;
+        font-size: 13px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .text{
+        width: 365px;
+        height: 30px;
+        border-radius: 50px; 
+        background-color: #d9d9d9; 
+    }
+    .nossos{
+        width: 70%;
+    float: left;
+    padding: 0 20px 20px 0;
+}
